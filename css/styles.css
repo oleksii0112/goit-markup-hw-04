@@ -212,7 +212,7 @@ img {
     background-color: var(--navy-blue);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -464,10 +464,13 @@ img {
     color: var(--cloud)
 }
 
-.footer-description {
+.footer-text-wrapper {
+    margin-right: 120px;
+}
+
+.footer-text {
     color: var(--cloud);
     max-width: 264px;
-    margin-right: 120px;
 }
 
 .footer-social-icon {
